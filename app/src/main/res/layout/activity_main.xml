@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="30dp"
+            android:text="Redmond"
+            android:tag="Redmond"
+            android:onClick="onCityButtonClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="30dp"
+            android:text="Bellevue"
+            android:tag="Bellevue"
+            android:onClick="onCityButtonClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="30dp"
+            android:text="Bothell"
+            android:tag="Bothell"
+            android:onClick="onCityButtonClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="30dp"
+            android:text="Sammamish"
+            android:tag="Sammamish"
+            android:onClick="onCityButtonClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="30dp"
+            android:text="Issaquah"
+            android:tag="Issaquah"
+            android:onClick="onCityButtonClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="30dp"
+            android:text="Seattle"
+            android:tag="Seattle"
+            android:onClick="onCityButtonClick" />
+
+    </LinearLayout>
+
+</LinearLayout>
